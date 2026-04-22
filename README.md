@@ -11,8 +11,8 @@ pip install carbon-cashmere
 Or from source:
 
 ```bash
-git clone https://github.com/Nedeljko87/Carbon-Cashmere
-cd Carbon-Cashmere/sdk/python
+git clone https://github.com/Nedeljko87/carbon-cashmere-python
+cd carbon-cashmere-python
 pip install -e .
 ```
 
