@@ -1,6 +1,6 @@
 # Carbon & Cashmere Python SDK
 
-Node-backed crypto intelligence API — Python client for 70+ x402-paid endpoints.
+Crypto intelligence API for autonomous agents — Python client for 70+ x402-paid endpoints.
 
 ## Install
 
@@ -11,7 +11,7 @@ pip install carbon-cashmere
 Or from source:
 
 ```bash
-git clone https://github.com/Nedeljko87/carbon-cashmere-python
+git clone https://github.com/CarbonCashmere/carbon-cashmere-python
 cd carbon-cashmere-python
 pip install -e .
 ```
@@ -62,7 +62,7 @@ except PaymentRequired as e:
 
 ## Endpoint Coverage
 
-**L1 On-Chain (node-backed):**
+**L1 On-Chain:**
 - `get_btc_whales()`, `get_btc_fee_market()`, `get_btc_rbf_pulse()`
 - `get_kaspa_dag_pulse()`, `get_kaspa_block_propagation()`, `get_kaspa_mining_economics()`
 - `get_onchain_pulse_btc()`

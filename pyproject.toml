@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "carbon-cashmere"
 version = "0.1.0"
-description = "Python SDK for Carbon & Cashmere — node-backed crypto intelligence API"
+description = "Python SDK for Carbon & Cashmere — crypto intelligence API for autonomous agents"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
@@ -33,8 +33,8 @@ dev = ["pytest>=7.0", "pytest-cov>=4.0"]
 [project.urls]
 Homepage = "https://api.carbon-cashmere.de"
 Documentation = "https://api.carbon-cashmere.de/v1/endpoints"
-Repository = "https://github.com/Nedeljko87/carbon-cashmere-python"
-"Bug Tracker" = "https://github.com/Nedeljko87/carbon-cashmere-python/issues"
+Repository = "https://github.com/CarbonCashmere/carbon-cashmere-python"
+"Bug Tracker" = "https://github.com/CarbonCashmere/carbon-cashmere-python/issues"
 
 [tool.setuptools]
 packages = ["carbon_cashmere"]
